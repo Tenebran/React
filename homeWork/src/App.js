@@ -1,22 +1,19 @@
 import React, { Component } from 'react';
-
+import Hello from './Hello';
+import Header from './Header';
+import Content from './Content';
+import Footer from './Footer';
 import './App.css';
 
 export default class App extends Component {
   render() {
     return (
-      <section className="hello">
-        <div className="content__conteiner">
-          <a href="#" className="hello__logo">
-            <img src="./projeco-logo.png" alt="logo__white" />
-          </a>
-          <h1 className="hello__title">PARTNER WITH KONSTUCT</h1>
-          <h2 className="hello__subtitle">An award-winning construction management firm</h2>
-          <a href="#" className="hello__scroll">
-            SCROLL DOWN
-          </a>
-        </div>
-      </section>
+      <div className="wrapper">
+        <Hello></Hello>
+        <Header></Header>
+        <Content></Content>
+        <Footer></Footer>
+      </div>
     );
   }
 }
