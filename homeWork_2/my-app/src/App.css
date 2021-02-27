@@ -1,0 +1,31 @@
+.red {
+  background-color: rgb(240, 43, 43);
+}
+
+.red:hover {
+  background-color: rgb(168, 40, 40);
+  cursor: pointer;
+}
+
+.green {
+  background-color: rgb(4, 230, 4);
+}
+
+.green:hover {
+  background-color: rgb(27, 150, 27);
+  cursor: pointer;
+}
+body {
+  font-size: 40px;
+}
+
+td {
+  font-size: 40px;
+  border: 5px solid rgb(8, 106, 131);
+  padding: 100px 10px;
+  font-weight: 900;
+}
+
+table {
+  border: 5px solid black;
+}
