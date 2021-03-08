@@ -1,0 +1,27 @@
+.wrapper-contacts {
+  background: #1c2630;
+  margin: 50px;
+  padding: 30px;
+  box-shadow: 10px 10px #00000070;
+}
+
+.contact-info__button__add {
+  animation-name: colorBorder;
+  animation-duration: 120s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorBorder {
+  0% {
+    border-color: #0178d6;
+  }
+  35% {
+    border-color: #e3c74d;
+  }
+  75% {
+    border-color: #e94c4f;
+  }
+  100% {
+    border-color: #0178d6;
+  }
+}
