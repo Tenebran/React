@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Gotham Office';
-    src: local('Gotham Office Regular'), local('Gotham-Office-Regular'),
-        url('GothamOffice-Regular.woff2') format('woff2'),
-        url('GothamOffice-Regular.woff') format('woff'),
-        url('GothamOffice-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-  }
