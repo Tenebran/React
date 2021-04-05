@@ -1,0 +1,42 @@
+.dashboard-menu {
+  display: flex;
+  justify-content: center;
+
+  &__users {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 440px;
+    height: 152px;
+    background: #c7f2ff;
+    border-radius: 50px 10px;
+    margin: 0 50px 0 0;
+    transition: 1s;
+
+    &:hover {
+      background: #a2e9ff;
+    }
+  }
+
+  &__albums {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 440px;
+    height: 152px;
+    background: #ffe5ee;
+    border-radius: 10px 50px;
+    transition: 1s;
+
+    &:hover {
+      background: #f0c0d1;
+    }
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 41px;
+    color: #42427d;
+  }
+}
