@@ -1,0 +1,88 @@
+.header {
+  user-select: none;
+  display: block;
+  min-width: 300px;
+
+  &__logo {
+    display: block;
+    color: #ffff;
+    font-size: 38px;
+    cursor: pointer;
+    font-weight: 900;
+    margin: 60px 0 150px 30px;
+    position: relative;
+
+    &_dark {
+      color: #5840bb;
+    }
+
+    &_panel {
+      color: rgb(243, 60, 60);
+    }
+  }
+
+  &__wrapper {
+    position: fixed;
+  }
+
+  &__nav {
+    display: block;
+    margin: 0 0 0 0px;
+
+    &__link {
+      width: 300px;
+      height: 80px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+      color: #fff;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 25px;
+      cursor: pointer;
+
+      &:hover {
+        transition: 1s;
+        background-color: #fff;
+        color: #5840bb;
+      }
+    }
+
+    &__link_white {
+      width: 300px;
+      height: 80px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+      color: #a0aac8;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 25px;
+      cursor: pointer;
+
+      &:hover {
+        transition: 1s;
+        background-color: #fff;
+        color: #42427d;
+      }
+    }
+  }
+}
+
+.dashboard__link {
+  &:focus {
+    background-color: #fff;
+    color: #5840bb;
+  }
+
+  &:active {
+    background-color: #fff;
+    color: #5840bb;
+  }
+}

@@ -1,0 +1,24 @@
+.user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.form-input {
+  width: 500px;
+  margin-bottom: 50px !important;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  background-color: #f3f6ff;
+}
+
+.button-wrapper {
+  display: flex;
+}
+
+.button__form_left {
+  margin-right: 80px !important;
+}

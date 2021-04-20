@@ -1,0 +1,20 @@
+.button__theme {
+  width: 168px;
+  height: 77px;
+  border-radius: 30px 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 900;
+  margin: 300px 0 0 60px;
+
+  &__Dark {
+    background-color: #ffff;
+    color: #5840bb;
+  }
+
+  &__Light {
+    background: #42427d;
+    color: #fff;
+  }
+}

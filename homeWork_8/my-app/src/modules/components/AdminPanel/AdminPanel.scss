@@ -1,0 +1,32 @@
+.pannel__content {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 60px;
+  min-height: 800px;
+  padding: 20px;
+  min-height: 90.4vh;
+
+  &_dark {
+    display: flex;
+    background: #5840bb;
+    padding: 25px;
+  }
+
+  &_white {
+    display: flex;
+    background: #f3f6ff;
+    padding: 25px;
+  }
+}
+.dark {
+  color: #5840bb;
+  display: flex;
+  background: #5840bb;
+  padding: 25px;
+}
+
+.white {
+  display: flex;
+  background: #f3f6ff;
+  padding: 25px;
+}

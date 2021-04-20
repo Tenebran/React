@@ -1,0 +1,79 @@
+.dashboard {
+  &-welcome {
+    display: flex;
+    justify-content: space-between;
+    margin: 52px 0 67px 91px;
+    font-size: 45px;
+    line-height: 57px;
+    color: #42427d;
+    &__admin {
+      font-size: 45px;
+      line-height: 57px;
+      font-weight: 700;
+    }
+  }
+
+  &-left {
+    display: inline-block;
+  }
+  &-admin__profile {
+    display: inline-flex;
+    justify-self: left;
+    width: 56px;
+    height: 56px;
+    background: url('../../../img/admin-avatar/avatar.jpg') no-repeat;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0 77px 0 0;
+    cursor: pointer;
+  }
+
+  &-admin__notifications {
+    display: inline-flex;
+    justify-self: left;
+    width: 56px;
+    height: 56px;
+    border-radius: 20px 5px;
+    margin: 0 24px 0;
+    background: url(../../../img/icon/notifications.png) no-repeat center / 16px 18px;
+    background-color: #f3f6ff;
+    cursor: pointer;
+  }
+
+  &-admin__input {
+    width: 280px;
+    height: 56px;
+    border: none;
+    border-radius: 20px 5px;
+    outline: none;
+    background: url(../../../img/icon/search.png) no-repeat right / 16px 18px;
+    background-position: 90% 50%;
+    background-color: #f3f6ff;
+    font-size: 28px;
+    padding: 0 20px 0 20px;
+    color: #7979b2;
+    font-size: 28px;
+  }
+
+  &-admin__settings {
+    display: flex;
+  }
+
+  &-sales {
+    width: 500px;
+    height: 500px;
+    margin-left: calc(50% - 250px);
+    background: url(../../../img/salesImg/sales.png) no-repeat center / contain;
+  }
+}
+
+input::-webkit-input-placeholder {
+  color: #7979b2;
+  font-size: 28px;
+  padding: 20px;
+}
+input:-moz-placeholder {
+  color: #7979b2;
+  font-size: 28px;
+  padding: 20px;
+}

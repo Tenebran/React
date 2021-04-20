@@ -1,0 +1,28 @@
+.not-found {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+
+  &__style {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ca1c05;
+    font-size: 45px;
+    font-weight: 900;
+  }
+
+  &__link {
+    font-size: 70px;
+    text-decoration: underline;
+    transition: 1s;
+
+    &:hover {
+      color: blueviolet;
+    }
+  }
+}

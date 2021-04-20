@@ -1,0 +1,80 @@
+.user-list {
+  border-radius: 20px !important;
+
+  &:nth-last-child(2n) {
+    background-color: #f3f6ff;
+  }
+
+  &__flex {
+    justify-content: space-between;
+
+    &_left {
+      display: flex;
+      align-self: right;
+    }
+
+    &_right {
+      display: block;
+    }
+  }
+
+  &__wrapp {
+    color: #42427d;
+    display: flex;
+    align-items: center;
+  }
+
+  &__img {
+    margin: 20px 20px 20px 0;
+    width: 64px;
+    height: 64px;
+    background: url('../../../../img/userImg/Rectangle.png') no-repeat;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  &__username {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  &__number {
+    margin: 0 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &__current-info {
+    display: block;
+    width: 100%;
+    margin: 0 0 0 30px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    padding: 0 0 30px 0;
+    color: #42427d;
+  }
+
+  &__label {
+    display: block;
+    font-weight: 900;
+  }
+
+  &__name {
+    color: brown;
+  }
+  &__current-label {
+    display: block;
+    font-size: 25px;
+    margin: 20px 0 0 0;
+    font-weight: 900;
+    color: #42427d;
+  }
+}
+
+.button__left {
+  display: block;
+  margin-right: 50px !important;
+}

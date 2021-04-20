@@ -1,0 +1,12 @@
+.albums__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.albums-title {
+  color: #42427d;
+  font-size: 45px;
+  line-height: 57px;
+  font-weight: 900;
+}
